@@ -6,6 +6,7 @@
   <title>GlitzCart - Your Shopping Companion</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-gray-100">
 
@@ -40,77 +41,128 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="bg-cover rounded-lg  w-full md:h-screen h-96" style="background-image: url('https://files.oaiusercontent.com/file-6gpcaiKES0HY1Dr178Dgf2Yc?se=2024-10-18T17%3A54%3A07Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D5f4739fd-c30d-471f-bdda-6ea0320f65ff.webp&sig=TtLZrJwUG0aTdl8mDMYoSaG1niO4nQTPkDt%2BS667p%2Bc%3D');">
+  <section class="bg-cover rounded-lg   md:h-screen h-96" style="background-image: url('https://files.oaiusercontent.com/file-6gpcaiKES0HY1Dr178Dgf2Yc?se=2024-10-18T17%3A54%3A07Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D5f4739fd-c30d-471f-bdda-6ea0320f65ff.webp&sig=TtLZrJwUG0aTdl8mDMYoSaG1niO4nQTPkDt%2BS667p%2Bc%3D');">
     <div class="flex items-center justify-center h-full bg-gray-900 bg-opacity-0">
       <div class="text-center">
-        <h1 class="text-6xl font-bold text-white">Discover the Latest Fashion Trends</h1>
-        <p class="text-3xl text-black mt-4">Shop now and get exclusive discounts on the best products</p>
+        <h1 class="text-5xl font-bold text-white">Discover the Latest Fashion Trends</h1>
+        <p class="text-2xl text-black mt-4">Shop now and get exclusive discounts on the best products</p>
         <a href="#" class="mt-8 inline-block bg-transparent border-4 border-white rounded-lg text-white py-2 px-4 hover:text-amber-500 transition duration-300">Shop Now</a>
 
       </div> 
     </div>
   </section>
   <!-- Product Section -->
-  <section class="container mx-auto py-16 px-4">
+  <section class="container mx-auto  px-4">
     <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Popular Products</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
       <!-- Product Card -->
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="https://th.bing.com/th/id/OIP.jGqP0rbjfDzfygFSVUBkEgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product Image" class="w-full h-56 object-cover">
+      <div class="bg-amber-100 shadow-lg rounded-lg overflow-hidden items-center">
+        <img src="https://th.bing.com/th/id/OIP.jGqP0rbjfDzfygFSVUBkEgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product Image" class="w-full h-auto object-cover">
         <div class="p-4">
           <h3 class="text-lg font-semibold text-gray-800">Trendy Jacket</h3>
-          <p class="text-gray-600 mt-2">$79.99</p>
-          <a href="#" class="block mt-4 text-blue-500 hover:underline">View Details</a>
+          <p class="text-gray-600 mt-2">$90</p>
+          <button class="mt-2 bg-black text-white py-1 px-4 rounded hover:bg-gray-800 transition">Veiw Details</button>
         </div>
       </div>
 
       <!-- Product Card -->
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="https://source.unsplash.com/400x400/?accessories" alt="Product Image" class="w-full h-56 object-cover">
+      <div class="bg-amber-100 shadow-lg rounded-lg overflow-hidden">
+        <img src="https://th.bing.com/th/id/OIP.fKyuFlBNRy_wpMCTQpD1PwHaHa?w=1000&h=1000&rs=1&pid=ImgDetMain" alt="Product Image" class="w-full h-auto object-cover">
         <div class="p-4">
           <h3 class="text-lg font-semibold text-gray-800">Stylish Sunglasses</h3>
-          <p class="text-gray-600 mt-2">$24.99</p>
-          <a href="#" class="block mt-4 text-blue-500 hover:underline">View Details</a>
+          <p class="text-gray-600 mt-2">$40</p>
+          <button class="mt-2 bg-black text-white py-1 px-4 rounded hover:bg-gray-800 transition">Veiw Details</button>
+
         </div>
       </div>
 
       <!-- Product Card -->
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="https://source.unsplash.com/400x400/?shoes" alt="Product Image" class="w-full h-56 object-cover">
+      <div class="bg-amber-100 shadow-lg rounded-lg overflow-hidden">
+        <img src="https://th.bing.com/th/id/OIP.lk6p0wdggUQItz8QwCHyIQAAAA?rs=1&pid=ImgDetMain" alt="Product Image" class="w-full h-auto object-cover">
         <div class="p-4">
           <h3 class="text-lg font-semibold text-gray-800">Casual Sneakers</h3>
-          <p class="text-gray-600 mt-2">$49.99</p>
-          <a href="#" class="block mt-4 text-blue-500 hover:underline">View Details</a>
+          <p class="text-gray-600 mt-2">$50</p>
+          <button class="mt-2 bg-black text-white py-1 px-4 rounded hover:bg-gray-800 transition">Veiw Details</button>
+
         </div>
       </div>
 
       <!-- Product Card -->
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="https://source.unsplash.com/400x400/?bag" alt="Product Image" class="w-full h-56 object-cover">
+      <div class="bg-amber-100 shadow-lg rounded-lg overflow-hidden">
+        <img src="https://th.bing.com/th/id/OIP.pa5kIalNl3Lzig-kIO4srQAAAA?rs=1&pid=ImgDetMain" alt="Product Image" class="w-full h-auto object-cover">
         <div class="p-4">
           <h3 class="text-lg font-semibold text-gray-800">Leather Bag</h3>
-          <p class="text-gray-600 mt-2">$99.99</p>
-          <a href="#" class="block mt-4 text-blue-500 hover:underline">View Details</a>
+          <p class="text-gray-600 mt-2">$100</p>
+          <button class="mt-2 bg-black text-white py-1 px-4 rounded hover:bg-gray-800 transition">Veiw Details</button>
+
         </div>
       </div>
 
     </div>
   </section>
-
+  <div class="float-right mr-9 my-10"><button class="mt-2 bg-black text-white py-1 px-4 rounded hover:bg-gray-800 transition">More Products <i class="fa-solid fa-arrow-right"></i></button></div>
+<!-- about -->
+<div class="w-full  my-10 md:grid grid-cols-2">
+    <div><img src="https://content.api.news/v3/images/bin/ea98f72c6cd473e6c353aeadb25dce87" alt=""></div>
+    <div class="md:px-40 px-10">
+       <div class="flex justify-ceenter items-center flex-col my-10">
+            <h1 class="text-4xl">OUR STORY</h1>
+            <div class="w-40 h-1 bg-red-500"></div>
+       </div>
+        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quos? Cupiditate ut dolore in praesentium voluptatum eius quae maiores harum asperiores ducimus sapiente ipsa, deleniti cum numquam. Quod, id quibusdam?</p>
+        <p class="mt-10 text-justify pb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum eligendi asperiores labore mollitia delectus possimus laudantium molestias nihil ipsam vel ea dolorem, repellendus numquam necessitatibus minima debitis aliquid consequuntur. Laudantium? t. Dolorum eligendi asperiores labore mollitia delectus possimus laudantium molestias nihil ipsam vel ea dolorem, repel</p>
+    </div>
+ </div>
+ <!-- feedback -->
+ <div class="bg-white p-8 rounded-lg shadow-lg w-auto ">
+    <h2 class="text-2xl font-bold mb-6 text-center">User Feedback</h2>
+    <form action="#" method="POST">
+        <div class="mb-4">
+            <label class="block text-gray-700 mb-2" for="name">Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+            />
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 mb-2" for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+            />
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 mb-2" for="feedback">Feedback</label>
+            <textarea
+                id="feedback"
+                name="feedback"
+                rows="4"
+                required
+                class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+            ></textarea>
+        </div>
+        <button
+            type="submit"
+            class="w-full bg-yellow-500 text-white p-2 rounded hover:bg-yellow-600 transition duration-200"
+        >
+            Submit Feedback
+        </button>
+    </form>
+</div>
   <!-- Footer -->
-  <footer class="bg-gray-800 py-6">
+  <footer class="bg-yellow-500 py-6">
     <div class="container mx-auto text-center text-white">
       <p>&copy; 2024 ShopEase. All rights reserved.</p>
     </div>
   </footer>
 
-  <script>
-    // Toggle mobile menu
-    document.getElementById('menu-btn').addEventListener('click', function() {
-      const menu = document.getElementById('menu');
-      menu.classList.toggle('hidden');
-    });
-  </script>
+ 
 </body>
 </html>
